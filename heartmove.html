@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+	<title> CSS </title>
+	<style type="text/css" media="screen">
+		div{
+			animation: mymove 5s infinite;
+			font-size: 10cm;
+			color:hotpink;
+			position: relative;
+			
+		}
+		#aa{
+			animation: mymove 5s infinite;
+			font-size: 10cm;
+			color: deeppink;
+			position: absolute;
+			
+		}
+		@keyframes mymove {
+			from (left:0cm;)
+			to(left: 200cm;)
+		}
+		@keyframes mymovee{
+			from (top:0cm;)
+			to (top:200cm;)
+		}       
+</style>
+</head>
+<body>
+ 	<div>&hearts;</div>
+ 	<div id="aa"> &hearts;</div>
+
+</body>
+</html>

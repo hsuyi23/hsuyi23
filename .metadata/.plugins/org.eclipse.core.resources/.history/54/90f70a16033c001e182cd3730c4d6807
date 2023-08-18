@@ -1,0 +1,15 @@
+package Chapter12;
+
+import java.io.*;
+
+public class filetest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File fobj= new File("Hellojava.txt");
+		System.out.println(fobj.getName());
+		System.out.println(fobj.getAbsolutePath());
+		System.out.println(fobj.getPath());
+	}
+
+}
